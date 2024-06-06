@@ -1,0 +1,62 @@
+/* reset.css */
+
+/* Regla de box sizing que se ajusta más a cómo los desarrolladores esperarían que se midieran los elementos */
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  /* Eliminar márgenes y rellenos predeterminados de elementos de lista */
+  ul, ol {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Eliminar márgenes y rellenos predeterminados de encabezados */
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Eliminar márgenes y rellenos predeterminados del cuerpo */
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Establecer la familia y tamaño de fuente predeterminados */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  /* Eliminar estilos de lista predeterminados */
+  ul, ol {
+    list-style: none;
+  }
+  
+  /* Eliminar estilos de hipervínculo predeterminados */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Agregar un poco de relleno y borde a los elementos para una mejor separación visual */
+  body, button, input, select, textarea {
+    padding: 0.5em;
+    border: 1px solid #ccc;
+  }
+  
+  /* Limpiar flotantes */
+  .clearfix::before, .clearfix::after {
+    content: " ";
+    display: table;
+  }
+  
+  .clearfix::after {
+    clear: both;
+  }
+  

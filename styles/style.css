@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* Header  */
+.body-main{
+    font-family: "Platypi", serif;
+    background-color: #000000;
+    
+    
+}
+.header-1{
+    font-size: 5px;
+    color: #ffffff;
+    display: flex;
+    margin: 0.6em;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo1{
+    display: flex;
+}
+.header-1 .div .nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-1 img{
+    display: flex;
+    filter: invert(100%);
+    height: 12em;
+    margin: 0.3px;
+    align-items: center;    
+}
+.nombrePage{
+    display: flex;
+    justify-content: space-between;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 30px;
+    padding: 0.5em;
+    color: rgb(255, 196, 0);
+    align-items: center;
+}
+.navbar-text{
+    cursor: pointer;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding: 0.5em;
+    margin: 0.5em;
+    font-variant: small-caps;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+}
+.navbar-text:hover{
+    color: rgb(255, 196, 0);
+}
+
+.pelicula{
+    font-size: 10px;
+    background: linear-gradient(rgba(0,0,0, .5) 100%, rgba(0, 0, 0, 0.8) 70%), url("https://occ-0-1457-3933.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABciMqd0RisWl6vPJssJJn7kxPsVRZchozJuG70pjsgwA58y-7d3gYrOO2e6DBDZbHraL7Xyfws2Zltd8IDjUzypHmWLq1gqSk4Xb.jpg?r=ddb");
+    background-position: center center;
+    background-size: cover;
+    min-height: 40em;
+    margin-bottom: 1.5em;
+    padding: 20px;
+    border-radius: 10px 0px 10px 0px;
+    cursor: pointer;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.pelicula .titulo{
+    font-weight: 600;
+    font-size: 3em;
+    margin-bottom: 0.5em;
+    color: white;
+}
+
+.pelicula .texto{
+    font-weight: normal;
+    font-size: 1.8em;
+    max-width: 50%;
+    margin-bottom: 2em;
+    color: white;
+}
+
+/* Nosotros */
+
+
+#image{
+    display: block;
+    margin: auto;
+}
+
+
+
+.card h1{
+    color: rgb(255, 196, 0);
+    text-align: center;
+    padding-top: 3px;
+}
+
+.conten-c{
+    justify-content: center;
+    align-items: center;
+}
+
+.cards-text{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* Index */
+
+.movies {
+    padding: 20px 0 0 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.movies h2{
+    font-size: 50px;
+    color: rgb(255, 196, 0);
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 2px 2px rgb(255, 255, 255);
+}
+
+
+hr {
+    border: 2px solid rgb(255, 196, 0);
+    width: 60%;
+    margin-bottom: 30px;
+}
+
+.box{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+.moviesCard{
+    margin: 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+.moviesCard img{
+    aspect-ratio: 15 / 24;
+    display: block;
+    margin: auto;
+    padding: 5px;
+    width: 50%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius:  20px;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+}
+
+.moviesCard h3{
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    margin: 0.6em;
+    padding: 0.2em;
+    background-color: rgb(255, 196, 0);
+    border-radius: 5px 0px;
+    text-align: center;
+}
+
+.moviesCard p{
+    font-size: 13px;
+    color: white;
+    margin: 1px;
+    text-align: left;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+}
+
+/* Movies */
+
+
+.form-movie{
+    color: rgb(255, 196, 0);
+    border: 2px solid #fff;
+    border-radius: 10px;
+    width: 800px;
+    padding: 40px;
+    margin-right:auto;
+    margin-left: auto;
+}
+
+.form-title{
+    font-size: 50px;
+    color: rgb(255, 196, 0);
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 2px 2px rgb(255, 255, 255);
+}
+
+.nav_list{
+    padding: 15px;
+    margin: 5px;
+}
+
+.navegador{
+    padding: 15px;
+    margin: 5px;
+}
+
+
+
