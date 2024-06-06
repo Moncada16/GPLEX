@@ -30,9 +30,10 @@ document.getElementById('formInputs').addEventListener('submit', async function(
     const poster = document.getElementById('poster').value;
 
     const movieData = { title, director, year, genre, duration,rate,poster };
+    const API_URL = `https://back-production-aea1.up.railway.app/movies`
 
     try {
-        const response = await axios.post('http://localhost:3000/movies', movieData);
+        const response = await axios.post(API_URL, movieData);
         alert('Película creada exitosamente');
         console.log(response.data);
         
