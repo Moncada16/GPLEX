@@ -30,7 +30,7 @@ document.getElementById('formInputs').addEventListener('submit', async function(
     const poster = document.getElementById('poster').value;
 
     const movieData = { title, director, year, genre, duration,rate,poster };
-    const API_URL = `back-production-97e2.up.railway.app/movies`
+    const API_URL = `http://localhost:3000/movies`
 
     try {
         const response = await axios.post(API_URL, movieData);
